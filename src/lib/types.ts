@@ -4,6 +4,9 @@ export interface Book {
   description: string;
   authorId: string;
   reviewIds: string[];
+  authorName?: string;
+  reviewerName?: string;
+  text?: string;
 }
 
 export interface User {
