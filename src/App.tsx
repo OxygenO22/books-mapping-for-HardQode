@@ -27,10 +27,6 @@ const App: FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  console.log(books)
-  console.log(users);
-  console.log(reviews);
-
   useEffect(() => {
     const fetchBooks = async () => {
       setIsLoading(true);
@@ -82,8 +78,6 @@ const App: FC = () => {
       }
     }
   }
-
-  
 
   return (
     <div>
